@@ -4,7 +4,7 @@
 
 #intro{
     background:url("/img/backgrounds/h_img.jpg");
-    height:500px;
+    height:100vh;
     background-size: cover;
     color: white;
 }
