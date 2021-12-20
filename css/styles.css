@@ -22,11 +22,21 @@
 
 #services{
     background:url("/img/backgrounds/s_image.jpg");
-    height:300px;
+    height:50vh;
     background-size: cover;
     color: white;
 
 }
+
+#about{
+    height:50vh;
+}
+
+#contacts{
+ height:70vh
+}
+
+
 
 #contacts{
     background:url("/img/backgrounds/c_image.jpg");
@@ -62,4 +72,19 @@ h1,h2,h4,h6,p{
   .col-md-3 img{
     max-width:100%;
     max-height: 100%;
+  }
+  
+  #social{
+      height:30vh;
+  }
+
+  #social div{
+      width: fit-content;
+      margin: auto;
+      padding-top: 5%;
+  }
+
+
+  .hidden{
+      display:none;
   }
