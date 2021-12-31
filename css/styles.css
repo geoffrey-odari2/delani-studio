@@ -55,11 +55,21 @@ h1,h2,h4,h5,h6,p{
     font-family: 'Rubik';
 }
 
-.icon{
+.logo,#mouse-click{
+    display:block;
+    margin: auto;
+}
+.icon{ 
+    width: 100px;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.icon img{
     display:block;
     margin-left: auto;
     margin-right: auto;
-    width: fit-content;
 }
 
 .form-input{
@@ -125,4 +135,8 @@ h1,h2,h4,h5,h6,p{
 
   textarea{
       height: 150px;
+  }
+
+  .icon{
+      border: black solid 1px;
   }
