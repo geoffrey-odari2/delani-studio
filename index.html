@@ -42,31 +42,36 @@
         <section class="container p-4">
             <h2>WHAT WE DO</h2>
             <div class="row">
-                <div class="col col-lg-4">
+                <div class="col col-lg-4 service">
                     <div class="icon">
-                        <img src="img/services_icons/design_icon.png"  id="service" >
+                        <img src="img/services_icons/design_icon.png"  >
                     </div>
-                    <h5>DESIGN</h5>
-                    <p class="hidden">Our design practice offers a full range of services including brand strategy, interaction and visual design and user experience testing.Throughout your project, our designers create and implement visual design and workflows, solicit user feedback and work with you to make sure what gets built is what is needed.</p>
+                    <div class="service-text">
+                        <h5>DESIGN</h5>
+                        <p>Our design practice offers a full range of services including brand strategy, interaction and visual design and user experience testing.Throughout your project, our designers create and implement visual design and workflows, solicit user feedback and work with you to make sure what gets built is what is needed.</p>
+                    </div>
                 </div>
 
-                <div class="col col-lg-4">
+                <div class="col col-lg-4 service">
                     <div class="icon">
-                        <img src="img/services_icons/dev_icon.png"  id="development">
+                        <img src="img/services_icons/dev_icon.png"  >
                     </div>
-                    <h5>DEVELOPMENT</h5>
-                    <p class="hidden">All engineers are fluent in the latest enterprise, mobile and web development technologies.They collaborate with your team to write, and improve code on a daily basis, using proven practices such as test-driven development and pair programming.</p>
+                    <div class="service-text">
+                        <h5>DEVELOPMENT</h5>
+                        <p>All engineers are fluent in the latest enterprise, mobile and web development technologies.They collaborate with your team to write, and improve code on a daily basis, using proven practices such as test-driven development and pair programming.</p>
+                    </div>   
                 </div>
 
-                <div class="col col-lg-4">
+                <div class="col col-lg-4 service">
                     <div class="icon">
-                        <img src="img/services_icons/product_icon.png"  id="productManagement" >
+                        <img src="img/services_icons/product_icon.png"   >
                     </div>
-                    <h5>PRODUCT MANAGEMENT</h5>
-                    <p class="hidden">Planning and development is iterative. Because we are constantly coding and testing, the products we build are always ready to go live. 
-                        This iterative process allows for changes as business requirements evolve.</p>
+                    <div class="service-text">
+                        <h5>PRODUCT MANAGEMENT</h5>
+                        <p>Planning and development is iterative. Because we are constantly coding and testing, the products we build are always ready to go live. 
+                            This iterative process allows for changes as business requirements evolve.</p>
+                    </div>  
                 </div>
-
             </div>
             
         </section>
@@ -113,13 +118,13 @@
             <h4>CONTACT US</h4>
                 <form>
                     <div class="row ">
-                        <input type="text" placeholder ="Name..." class="col col-sm-12 col-lg-6 form-input">
-                        <input type="text" placeholder ="Email..." class="col col-sm-12 col-lg-6 form-input">         
+                        <input type="text" placeholder ="Name..." class="col col-sm-12 col-lg-6 form-input" id="name">
+                        <input type="text" placeholder ="Email..." class="col col-sm-12 col-lg-6 form-input" id="email">         
                     </div>
                     <div class="row">
-                        <textarea placeholder="Your message here ..." class="form-input"></textarea>
+                        <textarea placeholder="Your message here ..." class="form-input" id="message"></textarea>
                         <div class="col text-center pt-2">
-                            <button class="btn btn-dark" type="button">Send</button>
+                            <button class="btn btn-dark" type="button" id="send">Send</button>
                         </div>
                     </div>
                 </form> 
@@ -145,5 +150,6 @@
         <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js"  integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
         <!--Custom JS-->
         <script src="js/main.js" async defer></script>
+        <script src="js/contact.js" async defer></script>
     </body>
 </html>

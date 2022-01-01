@@ -1,6 +1,9 @@
 /*Google font*/
 @import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
 
+html {
+    scroll-behavior: smooth;
+  }
 
 #intro{
     background:url("/img/backgrounds/h_img.jpg");
@@ -20,12 +23,21 @@
     font-size:60px;
 }
 
+.service{
+    position:relative;
+}
+
 #services{
-    background:url("/img/backgrounds/s_image.jpg");
-    height:50vh;
+    
+    background:url("/img/backgrounds/s_image.jpg"); 
     background-size: cover;
     color: white;
 
+}
+
+.service-text{ 
+    display:none;
+    
 }
 
 #about{
@@ -59,11 +71,17 @@ h1,h2,h4,h5,h6,p{
     display:block;
     margin: auto;
 }
+
+#mouse-click{
+    cursor:pointer;
+}
+
 .icon{ 
     width: 100px;
     height: 100px;
     margin-left: auto;
     margin-right: auto;
+    cursor: pointer;
 }
 
 .icon img{
@@ -137,6 +155,3 @@ h1,h2,h4,h5,h6,p{
       height: 150px;
   }
 
-  .icon{
-      border: black solid 1px;
-  }
