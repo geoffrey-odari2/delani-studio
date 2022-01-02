@@ -95,6 +95,7 @@ h1,h2,h4,h5,h6,p{
 }
 
 .form-input{
+    width:100%;
     background: none;
     border: solid white 1px;
     color:white;
@@ -140,6 +141,7 @@ h1,h2,h4,h5,h6,p{
       position: relative;
      
   }
+  
   .overlay{
       padding-top: 40%;
       position: absolute;
