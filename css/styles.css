@@ -40,7 +40,7 @@ html {
 }
 
 #about{
-    height:50vh;
+   min-height:50vh;
 }
 
 #contacts{
@@ -113,7 +113,7 @@ h1,h2,h4,h5,h6,p{
   }
   
   #social{
-      height:30vh;
+     min-height:30vh;
   }
 
   #social h4{
@@ -137,7 +137,7 @@ h1,h2,h4,h5,h6,p{
   }
 
   .portfolio{
-      height: fit-content;
+      min-height: fit-content;
       position: relative;
      
   }
