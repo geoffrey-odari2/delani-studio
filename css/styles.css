@@ -13,10 +13,9 @@ html {
 }
 
 #intro div{
-    padding-top: 30vh;
+    padding-top: 20vh;
     padding-bottom: 100px;
     margin: auto;
-    width:50%;
 }
 
 #intro div h1{
@@ -45,7 +44,7 @@ html {
 }
 
 #contacts{
-    height:70vh
+   min-height:70vh
 }
 
 #contacts div{
@@ -74,6 +73,11 @@ h1,h2,h4,h5,h6,p{
 
 #mouse-click{
     cursor:pointer;
+}
+
+#mouse-click:hover{
+    background: rgba(0, 0, 0, 0.253);
+    border-radius: 10px;
 }
 
 .icon{ 
