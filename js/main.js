@@ -10,6 +10,8 @@ $( ".portfolio" ).hover(
 
 
   $("#mouse-click").click(function(){
-      $( "#about" ).scrollTop()
+    $("body,html,document").scrollTop($("#about").offset().top);
   });
  
+
+  
