@@ -1,8 +1,20 @@
 //Busines logic
 
-const postDetails=data=>{
+const postDetails=(name,email,message)=>{
   const listId = 'fdc81344d9';
   const key = "605fdd28e1cb4ae0734ef550a4d89be5-us20"
+  let data = {
+    members: [
+      {
+        email_address: email,
+        status : "subscribed",
+        merge_fields: {
+          FNAME: name,
+          MESSAGE: message
+        }
+      }
+    ]
+  };
 
   let myHeaders = new Headers();
   myHeaders.append("Authorization", key);

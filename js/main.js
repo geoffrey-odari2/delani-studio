@@ -23,20 +23,6 @@ $(document).ready(function(){
       }
       else
       {
-  
-          let data = {
-              members: [
-                {
-                  email_address: $("#email").val(),
-                  status : "subscribed",
-                  merge_fields: {
-                    FNAME: $("#name").val(),
-                    MESSAGE: $("#message").val()
-                  }
-                }
-              ]
-            };
-  
             alert("Thank you! Your message has been received")
             $("#name").val("")
             $("#email").val("")
