@@ -1,8 +1,8 @@
 //Busines logic
 
 const postDetails=(name,email,message)=>{
-  const listId = 'fdc81344d9';
-  const key = "605fdd28e1cb4ae0734ef550a4d89be5-us20"
+  const listId = "";
+  const key = ""
   let data = {
     members: [
       {
